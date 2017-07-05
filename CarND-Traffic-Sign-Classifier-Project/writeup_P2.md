@@ -72,7 +72,7 @@ My final model consisted of the following layers:
 | Convolution 5*5	    | 1X1 stride, valid padding, outputs 10X10X256  |
 | RELU					|												|
 | Max pooling	2*2      	| 2x2 stride,  outputs 5x5x256 				|
-| flatten		| outputs 5*5*256        									|
+| flatten		| outputs 6400        									|
 | Fully connected		| outputs 1024        									|
 | Fully connected		| outputs 128        									|
 | output layer		| outputs 43        									|
