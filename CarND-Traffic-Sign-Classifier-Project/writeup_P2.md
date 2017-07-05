@@ -15,11 +15,11 @@ The goals / steps of this project are the following:
 [image1]: ./examples/visualization.jpg "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image4]: ./test_images/roundturn.jpeg "Traffic Sign 1"
+[image5]: ./test_images/noentry.jpeg "Traffic Sign 2"
+[image6]: ./test_images/nopsssing.jpeg "Traffic Sign 3"
+[image7]: ./test_images/speed50 "Traffic Sign 4"
+[image8]: ./test_images/speed30 "Traffic Sign 5"
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -140,6 +140,7 @@ The model predicts two images correctly. The stop sign and 30 km/h, with 0.84 an
 
 ### Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 ####1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
+
 I chose the last image in the downloaded images to visualize the neural network feature extraction. The chosen image contains the sign 30 km/h. The Conv layer 1 seems to find the sign in the middle of the image and roughly get the shape of 30. 
 
 
